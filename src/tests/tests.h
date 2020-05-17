@@ -147,7 +147,7 @@ private slots:
     void classFile();
     void classDir();
     void classTemporaryFile();
-    void calledWithBadInstance();
+    void calledWithInstance();
 
     void pipingCommands();
 
@@ -242,6 +242,7 @@ private slots:
     void scriptCommandLoaded();
     void scriptCommandAddFunction();
     void scriptCommandOverrideFunction();
+    void scriptCommandEnhanceFunction();
     void displayCommand();
 
     void queryKeyboardModifiersCommand();
